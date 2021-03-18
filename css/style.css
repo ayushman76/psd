@@ -1,0 +1,187 @@
+body{
+	font-family: 'Didact Gothic', sans-serif!important;
+	font-family: 'Poppins', sans-serif;
+	font-family: 'Questrial', sans-serif;
+	font-family: 'Quicksand', sans-serif;
+	font-family: 'Rubik', sans-serif;
+	color:rgb(86 93 117)!important;
+	background-color: rgb(253 253 254)!important;
+	
+	
+}
+.logo>h1{
+	    font-size: 28px!important;
+		font-family: 'Poppins', sans-serif;
+		font-family: 'Questrial', sans-serif;
+		font-family: 'Rubik', sans-serif;
+}
+a:hover{
+	background:transparent!important;
+}
+.orange,i{
+	color:rgb(252 174 97);
+}
+nav>ul{
+	padding:10px
+}
+nav>ul,li,a{
+	color:rgb(36 47 81)!important;
+	font-weight:100;
+	font-size: 16px;
+    font-weight: 600;
+	margin: 0px 6px;
+}
+header{
+	padding: 34px;
+}
+.blue_btn{
+
+    background: rgb(240 255 255);
+    background-color: rgb(37 0 249);
+    padding: 14px 40px!important;
+    border-radius: 38px!important;
+    color: rgb(255 255 255)!important;
+    position: relative;
+    top: 23px;
+
+
+}
+
+
+.blue_btn>a{
+	color:white!important;
+	font-weight:600;
+}
+.my_content{
+	padding:95px;
+}
+
+.content_head{
+	font-size: 60px!important;
+    font-weight: 800
+}
+.tag{
+	padding: 3px;
+	background: rgb(238 240 252);
+	border-radius: 24px;
+	width: 62%;
+}
+p{ 
+    font-size:20px;'
+}
+.layer{
+	background-image: url(../images/bg-1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+section{
+	background-image: url(../images/bg-2.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+}
+
+
+
+.menu{
+	display:none!important;
+	
+}
+@media(max-width:1200px) {
+	section{
+		padding: 71px 1px!important;
+	}
+	.dis{
+		display:none;
+	}
+	
+.menu{
+	position: absolute;
+    top: 0px;
+    right: 13px;
+	display:block!important;
+}
+	.my_content {
+     padding: 5px 0px 30px 0px; 
+	 text-align:center;
+   }
+   .tag{
+	width: 100%;
+   }
+   header{
+	   padding:10px;
+   }
+.content_head {
+    font-size: 37px!important;
+    font-weight: 800;
+}
+.my_phone>img{
+	width:100%;
+}
+	
+	
+	
+}
+.my_phone>img {  
+  
+  animation: 0.9s ease-out 0s 1 slideInFromLeft;
+  
+  
+}
+
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateY(120%);
+  }
+  100% {
+    transform: translateY(-120);
+  }
+}
+
+nav {  
+  animation: 0.9s ease-out 0s 1 slideInFromLeftNav;
+}
+
+@keyframes slideInFromLeftNav {
+  0% {
+    transform: translateX(-10%);
+  }
+  100% {
+    transform: translateX(10);
+  }
+}
+
+
+
+
+.rotatetime{
+	animation-name: spin;
+	animation-duration: 5000ms;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear; 
+	position: absolute;
+	top: 46px;
+	right: 18px;
+}
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+  from {
+    transform: rotate(-359deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+
+
+
+
